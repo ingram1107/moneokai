@@ -1,15 +1,34 @@
-# vim-monokai
+# Moneokai
 
-Monokai color scheme for Vim converted with [coloration](https://github.com/sickill/coloration) from Textmate theme with the same name.
-
-## Screenshots
-
-![Monokai in Vim](https://i.imgur.com/NPX2MXM.png)
-
+A colour scheme fork from [vim-monokai](https://github.com/sickill/vim-monokai),
+advocate for more Neovim enhancement especially for built-in LSP and
+nvim-treesitter
 
 ## Installation
 
-Put `monokai.vim` file in your `~/.vim/colors/` directory and add the following line to your `~/.vimrc`:
+If you are using vim-plug
 
-    syntax enable
-    colorscheme monokai
+```vim
+Plug 'ingram1107/moneokai'
+```
+
+If you are using packer
+
+```lua
+use 'ingram1107/moneokai'
+```
+
+Necessary settings in your vimrc
+
+```vim
+" syntax enable (if you're using Vim8)
+set termguicolors " set t_Co=256 (if you're using Vim8)
+set bg=dark
+colo moneokai
+```
+
+## Suggested Plugin
+
+[neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+
+[nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
