@@ -83,3 +83,4 @@ hi link TSConstructor Function
 hi TSParameter ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=italic
 hi TSType ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi link TSTypeBuiltin TSType
+hi TSVariableBuiltin ctermfg=197 ctermbg=NONE cterm=italic guifg=#f92672 guibg=NONE gui=italic
