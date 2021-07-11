@@ -45,6 +45,10 @@ hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link diffLine DiffText
 hi link diffSubname Normal
+hi diffFile ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
+hi diffOldFile ctermfg=124 ctermbg=NONE cterm=NONE guifg=#bc0b09 guibg=NONE gui=bold
+hi diffNewFile ctermfg=231 ctermbg=NONE cterm=NONE guifg=#46830c guibg=NONE gui=bold
+hi diffIndexLine ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
 hi ErrorMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#f92672 gui=NONE
 hi WarningMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#f92672 gui=NONE
 hi Float ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
