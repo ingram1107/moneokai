@@ -1,8 +1,7 @@
 # Moneokai
 
-A colour scheme fork from [vim-monokai](https://github.com/sickill/vim-monokai),
-advocate for more Neovim enhancement especially for built-in LSP and
-nvim-treesitter
+A colourscheme fork from [vim-monokai](https://github.com/sickill/vim-monokai), advocate for
+more Neovim enhancement especially for built-in LSP and nvim-treesitter
 
 ## Installation
 
