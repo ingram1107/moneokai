@@ -77,6 +77,27 @@ hi SpellLocal ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guisp=#e6db74 gu
 hi link SpellRare Normal
 hi helpCommand ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 
+hi markdownH1 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
+hi markdownH2 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
+hi markdownH3 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
+hi markdownH4 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
+hi markdownH5 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
+hi markdownH6 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
+hi markdownH1Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi markdownH2Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi markdownH3Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi markdownH4Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi markdownH5Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi markdownH6Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi markdownListMarker ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
+hi markdownLinkText ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
+hi markdownLinkTextDelimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f0 guibg=NONE gui=NONE
+hi markdownUrl ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=italic
+hi markdownLinkDelimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f0 guibg=NONE gui=NONE
+hi markdownCodeDelimiter ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi markdownCode ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi markdownCodeBlock ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+
 hi LspDiagnosticsDefaultError ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi LspDiagnosticsDefaultWarning ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=NONE
 hi LspDiagnosticsDefaultHint ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
