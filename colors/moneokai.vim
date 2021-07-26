@@ -114,6 +114,7 @@ hi link TSConstBuiltin Float
 hi link TSFuncBuiltin Function
 hi link TSConstructor Function
 hi TSParameter ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=italic
+hi TSStringEscape ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=NONE
 hi TSType ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi link TSTypeBuiltin TSType
 hi link TSVariableBuiltin TSType
