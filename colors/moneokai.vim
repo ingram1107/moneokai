@@ -77,6 +77,9 @@ hi SpellLocal ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guisp=#e6db74 gu
 hi link SpellRare Normal
 hi helpCommand ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 
+hi link vimFunction Function
+hi link vimUserAttrbCmpltFunc Function
+
 hi markdownH1 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
 hi markdownH2 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
 hi markdownH3 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
