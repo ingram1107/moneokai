@@ -80,12 +80,6 @@ hi helpCommand ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=
 hi link vimFunction Function
 hi link vimUserAttrbCmpltFunc Function
 
-hi markdownH1 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
-hi markdownH2 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
-hi markdownH3 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
-hi markdownH4 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
-hi markdownH5 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
-hi markdownH6 ctermfg=197 ctermbg=NONE cterm=bold guifg=#f92672 guibg=NONE gui=bold
 hi markdownH1Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 hi markdownH2Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 hi markdownH3Delimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
@@ -100,6 +94,12 @@ hi markdownLinkDelimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f0 guibg
 hi markdownCodeDelimiter ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi markdownCode ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi markdownCodeBlock ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+
+hi htmlLink ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic,underline
+
+hi link LedgerNumber Number
+hi LedgerCleared ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi LedgerPending ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 
 hi LspDiagnosticsDefaultError ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi LspDiagnosticsDefaultWarning ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=NONE
