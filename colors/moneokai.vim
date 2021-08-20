@@ -93,7 +93,7 @@ hi markdownUrl ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=
 hi markdownLinkDelimiter ctermfg=235 ctermbg=NONE cterm=NONE guifg=#f8f8f0 guibg=NONE gui=NONE
 hi markdownCodeDelimiter ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi markdownCode ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi markdownCodeBlock ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi link markdownCodeBlock Comment
 
 hi htmlLink ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic,underline
 
