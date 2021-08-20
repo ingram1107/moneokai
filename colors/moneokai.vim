@@ -102,6 +102,9 @@ hi LedgerTransactionDate ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg
 hi LedgerCleared ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi LedgerPending ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 
+hi VimwikiLink ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic,underline
+hi VimwikiPlaceHolder ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=italic
+
 hi LspDiagnosticsDefaultError ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi LspDiagnosticsDefaultWarning ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=NONE
 hi LspDiagnosticsDefaultHint ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
