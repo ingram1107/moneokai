@@ -98,6 +98,7 @@ hi link markdownCodeBlock Comment
 hi htmlLink ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic,underline
 
 hi link LedgerNumber Number
+hi LedgerTransactionDate ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi LedgerCleared ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi LedgerPending ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 
