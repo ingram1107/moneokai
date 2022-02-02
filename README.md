@@ -1,3 +1,8 @@
+# NOTICE
+
+This repo is no longer maintained since [vim-monokai](https://github.com/sickill/vim-monokai)
+has been active once again.
+
 # Moneokai
 
 A colourscheme fork from [vim-monokai](https://github.com/sickill/vim-monokai), advocate for
